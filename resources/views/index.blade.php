@@ -57,8 +57,6 @@
 
                     sendMessage : function () {
 
-                        // socket.emit('chat:App\\Events\\MessageSent' , 'My Message : ' + this.message)
-
                         axios({
                             method : 'post' ,
                             url : '{{ url('send-message') }}' ,
