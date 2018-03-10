@@ -8,7 +8,7 @@ Route::post('send-message' , function (\Illuminate\Http\Request $request) {
 
     event(new MessageSent($request->input('message')));
 
-    return 'My Message : ' . $request->input('message');
+    return 'My My My Message : ' . $request->input('message');
 
 });
 
