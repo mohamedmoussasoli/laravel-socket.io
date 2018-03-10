@@ -60,7 +60,7 @@
                         // socket.emit('chat:App\\Events\\MessageSent' , 'My Message : ' + this.message)
 
                         axios({
-                            method : 'put' ,
+                            method : 'post' ,
                             url : '{{ url('send-message') }}' ,
                             data : {
                                 message : this.message
