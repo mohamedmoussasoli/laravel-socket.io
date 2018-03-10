@@ -10,6 +10,7 @@ Route::post('send-message' , function (\Illuminate\Http\Request $request) {
 
     return 'My My My Message : ' . $request->input('message');
 
+
 });
 
 Route::get('/', function () {
